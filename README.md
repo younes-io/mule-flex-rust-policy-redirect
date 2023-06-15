@@ -1,4 +1,4 @@
-# Mulesoft Anypoint Flex Gateway Plicy (Custom Redirect Header)
+# Mulesoft Anypoint Flex Gateway Policy (Custom Redirect Header)
 
 This is a Rust policy for MuleSoft Anypoint Flex. The policy implements header-based redirection. It examines incoming requests for a particular header and redirects them accordingly. The redirection is achieved by responding with a 302 HTTP status code and including a Location header that specifies the new path.
 
