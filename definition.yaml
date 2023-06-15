@@ -1,0 +1,11 @@
+#%Policy Definition 0.1
+name: Http Redirect Header
+description: Redirects incoming HTTP requests according to setup
+category: Security
+providedCharacteristics: []
+#   - Requires authentication
+requiredCharacteristics: []
+interfaceScope: ["api", "resource"]
+interfaceTransformation: []
+encryptionSupported: true
+# violationCategory: authentication

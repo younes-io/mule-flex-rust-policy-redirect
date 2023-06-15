@@ -1,0 +1,15 @@
+# Compiled files
+/target/
+Cargo.lock
+
+# Generated documentation
+/doc/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build artifacts
+build/

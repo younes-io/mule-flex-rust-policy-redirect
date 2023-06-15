@@ -1,0 +1,20 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1686765915.json",
+  "title": "Http Redirect Header",
+  "type": "object",
+  "required": ["redirect_header_name"],
+  "properties": {
+    "redirect_header_name": {
+      "title": "Redirect Header Name",
+      "type": "string",
+      "default": ""
+    }
+  },
+  "unevaluatedProperties": false,
+  "@context": {
+    "@vocab": "anypoint://vocabulary/policy.yaml#",
+    "security": "anypoint://vocabulary/policy.yaml#"
+  }
+}
